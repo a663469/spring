@@ -2,12 +2,15 @@ package aop;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-public class LibraryTest {
+public class UniLibraryTest {
     public static void main(String[] args) {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(MyConfig.class);
-        Library library = context.getBean("libraryBean", Library.class);
 
-        library.getBook();
+        UniLibrary uniLibrary = context.getBean("uniLibrary", UniLibrary.class);
+        uniLibrary.getBook();
+
+        SchoolLibrary schoolLibrary = context.getBean("schoolLibrary", SchoolLibrary.class);
+        schoolLibrary.getBook();
 
         context.close();
     }

@@ -9,7 +9,8 @@ public class SchoolLibrary extends AbstractLibrary{
         System.out.println("Мы берем книгу из SchoolLibrary");
     }
 
-    public void returnBook() {
+    public String returnBook() {
         System.out.println("Мы возвращаем книгу в SchoolLibrary");
+        return null;
     }
 }

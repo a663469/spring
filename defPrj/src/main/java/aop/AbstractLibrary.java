@@ -5,7 +5,7 @@ public abstract class AbstractLibrary {
 //
 //    }
 
-    abstract public void returnBook(); {
+    abstract public String returnBook(); {
 
     }
 }

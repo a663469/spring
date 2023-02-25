@@ -5,7 +5,9 @@ import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
-public class Test1 {
+
+public class Test5 {
+
     public static void main(String[] args) throws HibernateException {
         SessionFactory factory = new Configuration()
                 .configure("hibernate.cfg.xml")
@@ -13,13 +15,16 @@ public class Test1 {
                 .buildSessionFactory();
         try {
             Session session = factory.getCurrentSession();
-            Employee emp = new Employee("Aleksandr", "Ivanov", "IT", 600);
             session.beginTransaction();
-            session.save(emp);
-            session.getTransaction().commit();
 
+            Employee emp = session.get(Employee.class, 7);
+
+            session.delete(emp);
+
+            session.createQuery("delete Employee where name = 'Aleksandr'").executeUpdate();
+
+            session.getTransaction().commit();
             System.out.println("Done!");
-            System.out.println(emp);
         }
         finally {
             factory.close();

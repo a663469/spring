@@ -1,6 +1,4 @@
-package hibernateTest.entity;
-
-
+package hibernateTest2.entity;
 import javax.persistence.*;
 
 @Entity
@@ -24,6 +22,9 @@ public class Employee {
     @Column(name="salary")
     private int salary;
 
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "details_id")
+    private Detail empDetail;
     public Employee() {}
 
     public Employee(String name, String surname, String department, int salary) {
@@ -82,5 +83,13 @@ public class Employee {
 
     public void setSalary(int salary) {
         this.salary = salary;
+    }
+
+    public Detail getEmpDetail() {
+        return empDetail;
+    }
+
+    public void setEmpDetail(Detail empDetail) {
+        this.empDetail = empDetail;
     }
 }

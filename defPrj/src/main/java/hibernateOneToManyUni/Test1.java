@@ -1,8 +1,7 @@
-package hibernateOneToManyBi;
+package hibernateOneToManyUni;
 
-import hibernateOneToManyBi.entity.Department;
-import hibernateOneToManyBi.entity.Employee;
-
+import hibernateOneToManyUni.entity.Department;
+import hibernateOneToManyUni.entity.Employee;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -19,9 +18,9 @@ public class Test1 {
         try {
 //            session = factory.getCurrentSession();
 //
-//            Department dep = new Department("IT", 300, 1200);
-//            Employee emp1 = new Employee("Zaur", "Tregulov", 800);
-//            Employee emp2 = new Employee("Elena", "Smirnov", 1000);
+//            Department dep = new Department("HR", 500, 1500);
+//            Employee emp1 = new Employee("Oleg", "Ivanov", 800);
+//            Employee emp2 = new Employee("Andrey", "Sidorov", 1000);
 //
 //            dep.addEmployeeToDepartment(emp1);
 //            dep.addEmployeeToDepartment(emp2);
@@ -34,20 +33,29 @@ public class Test1 {
 //
 //            session.beginTransaction();
 //
-//            Employee employee = session.get(Employee.class, 1);
-//            System.out.println(employee);
-//            System.out.println(employee.getDepartment());
+//            Department department = session.get(Department.class, 2);
+//            System.out.println(department);
+//            System.out.println(department.getEmps());
 //
 //            session.getTransaction().commit();
 //***********************************************************************
-              session = factory.getCurrentSession();
+//            session = factory.getCurrentSession();
+//
+//            session.beginTransaction();
+//
+//            Employee employee = session.get(Employee.class, 1);
+//            System.out.println(employee);
+//
+//            session.getTransaction().commit();
+//***********************************************************************
+            session = factory.getCurrentSession();
 
-              session.beginTransaction();
+            session.beginTransaction();
 
-              Employee employee = session.get(Employee.class, 2);
-              session.delete(employee);
+            Employee employee = session.get(Employee.class, 2);
+            session.delete(employee);
 
-              session.getTransaction().commit();
+            session.getTransaction().commit();
         }
         finally {
             session.close();

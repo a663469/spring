@@ -27,7 +27,7 @@ public class Department {
     private int maxSalary;
     @Column(name = "min_salary")
     private int minSalary;
-    @OneToMany(cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REFRESH, CascadeType.DETACH}, mappedBy = "department")
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "department", fetch = FetchType.LAZY)
     @ToString.Exclude private List<Employee> emps;
 
     public Department(String departmentName, int maxSalary, int minSalary) {

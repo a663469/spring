@@ -19,16 +19,31 @@ public class Test1 {
         try {
 //            session = factory.getCurrentSession();
 //
-//            Department dep = new Department("IT", 300, 1200);
-//            Employee emp1 = new Employee("Zaur", "Tregulov", 800);
-//            Employee emp2 = new Employee("Elena", "Smirnov", 1000);
+//            Department dep = new Department("Sales", 800, 1500);
+//            Employee emp1 = new Employee("Zaur2", "Tregulov2", 800);
+//            Employee emp2 = new Employee("Elena2", "Smirnov2", 1000);
+//            Employee emp3 = new Employee("Anton", "Sidorov", 1200);
 //
 //            dep.addEmployeeToDepartment(emp1);
 //            dep.addEmployeeToDepartment(emp2);
+//            dep.addEmployeeToDepartment(emp3);
 //
 //            session.beginTransaction();
 //            session.save(dep);
 //            session.getTransaction().commit();
+//***********************************************************************
+            session = factory.getCurrentSession();
+
+            session.beginTransaction();
+
+            System.out.println("Get department");
+            Department department = session.get(Department.class, 2);
+            System.out.println("Show department");
+            System.out.println(department);
+            System.out.println("Show employees of the department");
+            System.out.println(department.getEmps());
+
+            session.getTransaction().commit();
 //***********************************************************************
 //            session = factory.getCurrentSession();
 //
@@ -40,14 +55,14 @@ public class Test1 {
 //
 //            session.getTransaction().commit();
 //***********************************************************************
-              session = factory.getCurrentSession();
-
-              session.beginTransaction();
-
-              Employee employee = session.get(Employee.class, 2);
-              session.delete(employee);
-
-              session.getTransaction().commit();
+//              session = factory.getCurrentSession();
+//
+//              session.beginTransaction();
+//
+//              Employee employee = session.get(Employee.class, 2);
+//              session.delete(employee);
+//
+//              session.getTransaction().commit();
         }
         finally {
             session.close();

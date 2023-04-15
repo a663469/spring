@@ -13,9 +13,11 @@
 <form:form action="showDetails" modelAttribute="employee">
     Name
     <form:input path="name"/>
+    <form:errors path="name"/>
     <br><br>
     Surname
     <form:input path="surname"/>
+    <form:errors path="surname"/>
     <br><br>
     Salary
     <form:input path="salary"/>
@@ -39,6 +41,7 @@
 <%--    DE <form:checkbox path="languages" value="Deutch"/>--%>
 <%--    FR <form:checkbox path="languages" value="French"/>--%>
     <from:checkboxes path="languages" items="${employee.languageList}"/>
+    <br><br>
     <input type="submit" value="OK">
 </form:form>
 

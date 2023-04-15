@@ -1,4 +1,5 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@ taglib prefix="from" uri="http://www.springframework.org/tags/form" %>
 <!DOCTYPE html>
 <html>
 
@@ -33,6 +34,11 @@
 <%--    MB <form:radiobutton path="carBrand" value="Mercedes-Benz"/>--%>
     <form:radiobuttons path="carBrand" items="${employee.carBrands}"/>
     <br><br>
+    Foreign Language(s)
+<%--    EN <form:checkbox path="languages" value="English"/>--%>
+<%--    DE <form:checkbox path="languages" value="Deutch"/>--%>
+<%--    FR <form:checkbox path="languages" value="French"/>--%>
+    <from:checkboxes path="languages" items="${employee.languageList}"/>
     <input type="submit" value="OK">
 </form:form>
 

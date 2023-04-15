@@ -1,19 +1,21 @@
+<%--@elvariable id="employee" type="com.zaurtregulov.spring.mvc.Employee"--%>
 <!DOCTYPE html>
 <html>
-
 <body>
 
-<h2>Dear Employee, you are WELCOME!!!<h2>
+<h2>Dear Employee, you are WELCOME!!!</h2>
 
 <br>
 <br>
 
 <%--Your name: ${param.employeeName}--%>
-
 <%--Your name: ${nameAttribute} ${description}--%>
-Your name: ${nameAttribute}
-</form>
+
+Your name: ${employee.name}
+<br>
+Your surname: ${employee.surname}
+<br>
+Your salary: ${employee.salary}
 
 </body>
-
 </html>

@@ -33,5 +33,7 @@ Language(s):
 <br>
 Phone number: ${employee.phoneNumber}
 <br>
+Email: ${employee.email}
+<br>
 </body>
 </html>

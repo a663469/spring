@@ -31,5 +31,10 @@
         </tr>
     </c:forEach>
 </table>
+
+<br>
+
+<input type="button" value="Add" onclick="window.location.href = '/mvc_hibernate_aop/addNewEmployee'"/>
+
 </body>
 </html>

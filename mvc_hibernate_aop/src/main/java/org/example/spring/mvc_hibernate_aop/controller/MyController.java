@@ -20,7 +20,7 @@ public class MyController {
 
     @RequestMapping("/")
     public String showAllEmployees(Model model) {
-        System.out.println("Controller!!");
+//        System.out.println("Controller!!");
         List<Employee> allEmployees = employeeService.getAllEmployees();
         model.addAttribute("allEmps", allEmployees);
 
@@ -29,7 +29,7 @@ public class MyController {
 
     @RequestMapping("/addNewEmployee")
     public String addNewEmployee(Model model){
-        System.out.println("addNewEmployee!!");
+//        System.out.println("addNewEmployee!!");
         Employee employee = new Employee();
         model.addAttribute("employee", employee);
 
@@ -38,7 +38,7 @@ public class MyController {
 
     @RequestMapping("/saveEmployee")
     public String saveEmployee(@ModelAttribute("employee") Employee employee) {
-        System.out.println("saveEmployee!!");
+//        System.out.println("saveEmployee!!");
         employeeService.saveEmployee(employee);
 
         return "redirect:/";

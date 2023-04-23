@@ -10,18 +10,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="657f04fa-0d9a-4129-881e-aff62456799c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/spring/rest/configuration/MyConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/spring/rest/configuration/MyWebInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/spring/rest/controller/MyRESTController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-course-rest-client/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-course-rest-client/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-course-rest-client/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-course-rest-client/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-course-rest-client/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-course-rest-client/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-course-rest-client/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-course-rest-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-course-rest-client/src/main/java/org/example/sprig/rest/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-course-rest-client/src/main/java/org/example/sprig/rest/Communication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-course-rest-client/src/main/java/org/example/sprig/rest/configuration/MyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-course-rest-client/src/main/java/org/example/sprig/rest/entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-course-rest-client/src/test/java/org/example/sprig/rest/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/spring/rest/exception_handing/EmployeeGlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/spring/rest/exception_handing/EmployeeIncorrectData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/spring/rest/exception_handing/NoSuchEmployeeExcaption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/spring/rest/controller/MyRESTController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/spring/rest/controller/MyRESTController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,11 +66,15 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable"
   }
 }]]></component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.71">
     <configuration name="Tomcat 9.0.71" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.71" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER" value="false" />
       <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -190,7 +200,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682238979297</updated>
-      <workItem from="1682238981754" duration="3938000" />
+      <workItem from="1682238981754" duration="10705000" />
     </task>
     <servers />
   </component>

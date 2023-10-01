@@ -10,24 +10,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="657f04fa-0d9a-4129-881e-aff62456799c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../spring-course-rest-client/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-course-rest-client/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-course-rest-client/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-course-rest-client/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-course-rest-client/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-course-rest-client/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-course-rest-client/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-course-rest-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-course-rest-client/src/main/java/org/example/sprig/rest/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-course-rest-client/src/main/java/org/example/sprig/rest/Communication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-course-rest-client/src/main/java/org/example/sprig/rest/configuration/MyConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-course-rest-client/src/main/java/org/example/sprig/rest/entity/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-course-rest-client/src/test/java/org/example/sprig/rest/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/spring/rest/exception_handing/EmployeeGlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/spring/rest/exception_handing/EmployeeIncorrectData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/spring/rest/exception_handing/NoSuchEmployeeExcaption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-course-springboot/src/main/java/org/example/spring/springboot/springboot_rest/controller/MyRESTController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-course-springboot/src/main/java/org/example/spring/springboot/springboot_rest/dao/EmployeeDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-course-springboot/src/main/java/org/example/spring/springboot/springboot_rest/dao/EmployeeDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-course-springboot/src/main/java/org/example/spring/springboot/springboot_rest/entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-course-springboot/src/main/java/org/example/spring/springboot/springboot_rest/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-course-springboot/src/main/java/org/example/spring/springboot/springboot_rest/service/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../org.example.security/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../org.example.security/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../org.example.security/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../org.example.security/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../org.example.security/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../org.example.security/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../org.example.security/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../org.example.security/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../org.example.security/src/main/webapp/index.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/spring/rest/controller/MyRESTController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/spring/rest/controller/MyRESTController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +64,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/main/lrn/Java/230219_spring/spring-course-rest",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -170,9 +169,6 @@
       <predefined_log_file id="Tomcat Host Manager Log" />
       <option name="contextPath" value="/spring-course-rest" />
       <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
-      <option name="envOptions">
-        <map />
-      </option>
       <option name="extraClassPath" value="" />
       <option name="tomcatInfo">
         <TomcatInfo>
@@ -182,7 +178,6 @@
         </TomcatInfo>
       </option>
       <option name="vmOptions" value="" />
-      <module name="spring-course-rest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -201,6 +196,7 @@
       <option name="presentableId" value="Default" />
       <updated>1682238979297</updated>
       <workItem from="1682238981754" duration="10705000" />
+      <workItem from="1696145824922" duration="3417000" />
     </task>
     <servers />
   </component>
